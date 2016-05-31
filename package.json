@@ -4,6 +4,7 @@
     "author": {
         "name": "@hzwangfei3"
     },
+    "description": "A demo to mock-data via tool puer and nei platform.",
     "repository": {
         "type" : "git",
         "url" : "ssh://git@g.hz.netease.com:22222/hzwangfei3/zuoye1.git"
