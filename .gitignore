@@ -1,0 +1,6 @@
+.idea
+*.log
+*.iml
+/*.project
+/.settings
+/node_modules/*

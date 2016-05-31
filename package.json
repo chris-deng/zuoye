@@ -1,0 +1,33 @@
+{
+    "name" : "zuoye1",
+    "version" : "0.1.0",
+    "author": {
+        "name": "@hzwangfei3"
+    },
+    "repository": {
+        "type" : "git",
+        "url" : "ssh://git@g.hz.netease.com:22222/hzwangfei3/zuoye1.git"
+    },
+    "bugs": {
+        "url": "https://g.hz.netease.com/hzwangfei3/zuoye1/issues"
+    },
+    "homepage": "https://g.hz.netease.com/hzwangfei3/zuoye1",
+    "devDependencies" : {
+        "express-velocity" : "^1.0.0",
+        "puer" : "leeluolee/puer#next",
+        "mcss" : "^0.5.1",
+        "npm-run-all":"~2.1.1"
+    },
+    "dependencies" : {
+        "express-velocity" : "^1.0.0",
+        "puer" : "leeluolee/puer#next",
+        "mcss" : "^0.5.1",
+        "npm-run-all":"~2.1.1"
+    },
+    "scripts" : {
+        "proxy" : "puer -c ./puer/config.js",
+        "mcss" : " mcss -w -c ./mcss/mcss.json",
+        "both" : "npm-run-all --parallel proxy  mcss"
+    },
+    "license": "MIT"
+}

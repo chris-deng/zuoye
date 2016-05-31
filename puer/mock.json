@@ -1,0 +1,6 @@
+{
+    "port" : 8080,
+    "launch" : 1,
+    "reload" : 1,
+    "offline" : 1
+}
