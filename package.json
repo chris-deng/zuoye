@@ -28,7 +28,7 @@
     "scripts" : {
         "proxy" : "puer -c ./puer/config.js",
         "mcss" : " mcss -w -c ./mcss/mcss.json",
-        "both" : "npm-run-all --parallel proxy  mcss"
+        "both" : "run-p proxy  mcss"
     },
     "license": "MIT"
 }
